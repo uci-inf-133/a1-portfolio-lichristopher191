@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;;
     background-color: #f6fbf8;
     color: #0e1b12;
 }
@@ -59,7 +59,7 @@ figure {
   width: 36px;
   height: 36px;
 
-  background-color: #ffffff; /* white button */
+  background-color: #ffffff;
   color: #0e1b12;
 
   border: 1px solid #0e1b12;

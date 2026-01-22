@@ -265,3 +265,53 @@ textarea {
     height: 160px;
   }
 }
+
+/* YuCare Project Description */
+.project-overview p {
+  max-width: 720px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-indent: 1.5rem;
+}
+
+/* YuCare Project Buttons */
+.project-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.project-button {
+  text-decoration: none;
+  color: #0e1b12;
+  border: 1px solid #0e1b12;
+  border-radius: 999px;
+  padding: 0.55rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.project-button:hover,
+.project-button:focus {
+  background-color: #0e1b12;
+  color: #ffffff;
+}
+
+.project-button.secondary:hover,
+.project-button.secondary:focus {
+  background-color: #0e1b12;
+  color: #ffffff;
+}

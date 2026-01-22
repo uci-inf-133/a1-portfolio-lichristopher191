@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 img {
@@ -39,8 +39,9 @@ figure {
 }
 
 .site-nav {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: none;
+    width: 100;
+    margin: 0;
     padding: 1rem 1.25rem;
     
     display: flex;
@@ -146,8 +147,8 @@ textarea {
 /* Projects Section */
 .projects-section {
   background-color: #eaf5ee;
-  padding: 60px 20px;
-  margin-top: 40px;
+  padding: 40px 0;
+  margin-top: 24px;
 }
 
 .projects-header {

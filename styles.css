@@ -35,6 +35,7 @@ figure {
 
 /* Navigation Bar */
 .site-header {
+    background-color: #cfe3d6;
     border-bottom: 1px solid #ddd;
 }
 
@@ -51,12 +52,27 @@ figure {
 
 /* Home Icon */
 .logo {
-    font-size: 1.4rem;
-    color: #555;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  background-color: #ffffff; /* white button */
+  color: #0e1b12;
+
+  border: 1px solid #0e1b12;
+  border-radius: 999px;
+
+  font-size: 1rem;
+  text-decoration: none;
 }
 
-.logo:hover {
-    color: #555;
+.logo:hover,
+.logo:focus {
+  background-color: #0e1b12;
+  color: #ffffff;
 }
 
 /* Upper-Right Buttons */
@@ -72,6 +88,7 @@ figure {
 .nav-links a {
   text-decoration: none;
   color: #111;
+  background-color: #ffffff;
   padding: 0.4rem 0.75rem;
   border: 1px solid #111;
   border-radius: 999px;
@@ -80,7 +97,7 @@ figure {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #111;
+  background-color: #0e1b12;
   color: #fff;
 }
 
